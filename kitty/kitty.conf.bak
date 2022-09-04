@@ -1,0 +1,17 @@
+font_family FiraCode NF
+font_size 13.0
+adjust_column_width 95%
+
+# cursor #e5d289
+
+map f5 reload_config_file
+map f11 toggle_fullscreen
+
+
+disable_ligatures never
+
+
+# BEGIN_KITTY_THEME
+# Tokyo Night Storm
+include current-theme.conf
+# END_KITTY_THEME

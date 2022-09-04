@@ -1,0 +1,18 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "py",
+    "yaml",
+    "json",
+    "markdown",
+    "cpp",
+    "h",
+    "hpp",
+    "lua",
+    "vim",
+    "rs"
+  ],
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "coc.preferences.snippetHighlight": true,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black"
+}
