@@ -50,6 +50,8 @@ autocmd FileType lua setlocal ts=2 sw=2 sts=2 expandtab
 
 lua require('config')
 
+command SQ mks! session.vim | wqa
+
 nnoremap <silent> <c-]> <cmd>lua vim.lsp.buf.definition()<CR>
 nnoremap <silent> K     <cmd>lua vim.lsp.buf.hover()<CR>
 nnoremap <silent> gD    <cmd>lua vim.lsp.buf.implementation()<CR>
@@ -66,4 +68,5 @@ nnoremap <silent> g]    <cmd>lua vim.diagnostic.goto_next()<CR>
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 
+runtime simple_snippets.vim
 
